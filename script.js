@@ -13,7 +13,7 @@ var i = 0;
 while (continuar === "s") {
     var receita = parseFloat(prompt("Digite o valor da receita:"));
     receitas.push(receita);
-
+    i++;
     continuar = prompt("Deseja continuar adicionando receitas? (s/n):").toLowerCase();
 }
 
@@ -24,7 +24,7 @@ i = 0
 while (continuar === "s") {
     var despesa = parseFloat(prompt("Digite o valor da despesa:"));
     despesas.push(despesa);
-
+    i++;
     continuar = prompt("Deseja continuar adicionando despesas? (s/n):").toLowerCase();
 }
 
