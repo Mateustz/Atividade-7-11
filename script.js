@@ -7,6 +7,8 @@ ao final, some todas as receitas e depesas, exiba o total a apresente a diferenc
 var receitas = [];
 var despesas = [];
 var continuar = "s";
+var total = 0;
+var i = 0;
 
 while (continuar === "s") {
     var receita = parseFloat(prompt("Digite o valor da receita:"));
@@ -16,6 +18,8 @@ while (continuar === "s") {
 }
 
 continuar = "s";
+
+i = 0
 
 while (continuar === "s") {
     var despesa = parseFloat(prompt("Digite o valor da despesa:"));
